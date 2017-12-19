@@ -1,0 +1,15 @@
+.breadcrumb {
+    background-color: #F5F5F5;
+}
+
+.breadcrumb-item a{
+    color: #A4AD71;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: none;
+}
+
+.breadcrumb-item.active {
+    color: #455a64;
+}
